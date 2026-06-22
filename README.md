@@ -22,8 +22,11 @@ qa-automation-portfolio/
 ├── pages/
 │   ├── login_page.py
 │   └── inventory_page.py
+│   └── cart_page.py
 ├── tests/
 │   └── test_login.py
+│   └── test_inventory.py
+│   └── test_cart.py
 ├── conftest.py
 ├── pytest.ini
 ├── requirements.txt
