@@ -18,14 +18,14 @@ End-to-end UI test suite for [SauceDemo](https://www.saucedemo.com/) built with 
 ## Project Structure
 
 ```
-qa-automation-portfolio/
+Python-Playwright-Learning/
 ├── pages/
 │   ├── login_page.py
-│   └── inventory_page.py
+│   ├── inventory_page.py
 │   └── cart_page.py
 ├── tests/
-│   └── test_login.py
-│   └── test_inventory.py
+│   ├── test_login.py
+│   ├── test_inventory.py
 │   └── test_cart.py
 ├── conftest.py
 ├── pytest.ini
@@ -85,6 +85,12 @@ pytest --headed --slowmo=500
 |------|-------|
 | Login — valid credentials | ✓ |
 | Login — invalid credentials | ✓ |
+| Inventory — Get item names | ✓ |
+| Inventory — Get item prices | ✓ |
+| Inventory — Add items | ✓ |
+| Cart — Add Item/Test Cart Count | ✓ |
+| Cart — Remove Item/Test Cart Count | ✓ |
+| Cart — Test Correct Item | ✓ |
 
 More scenarios being added weekly.
 
