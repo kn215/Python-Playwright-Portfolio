@@ -1,6 +1,6 @@
 > **Please note this is an in-progress repository that I am creating to learn automation.**
 
-# QA Automation Portfolio
+# Python Playwright Portfolio
 
 End-to-end UI test suite for [SauceDemo](https://www.saucedemo.com/) built with Python, Pytest, and Playwright. Covers login, inventory, and checkout flows using the Page Object Model pattern.
 
@@ -18,15 +18,17 @@ End-to-end UI test suite for [SauceDemo](https://www.saucedemo.com/) built with 
 ## Project Structure
 
 ```
-Python-Playwright-Learning/
+Python-Playwright-Portfolio/
 ├── pages/
 │   ├── login_page.py
 │   ├── inventory_page.py
-│   └── cart_page.py
+│   ├── cart_page.py
+│   └── checkout_page.py
 ├── tests/
 │   ├── test_login.py
 │   ├── test_inventory.py
-│   └── test_cart.py
+│   ├── test_cart.py
+│   └── test_checkout.py
 ├── conftest.py
 ├── pytest.ini
 ├── requirements.txt
@@ -39,8 +41,8 @@ Python-Playwright-Learning/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/kn215/Python-Playwright-Learning.git
-cd Python-Playwright-Learning
+git clone https://github.com/kn215/Python-Playwright-Portfolio.git
+cd Python-Playwright-Portfolio
 ```
 
 **2. Install dependencies**
@@ -89,8 +91,11 @@ pytest --headed --slowmo=500
 | Inventory — Get item prices | ✓ |
 | Inventory — Add items | ✓ |
 | Cart — Add Item/Test Cart Count | ✓ |
+| Cart — Add multiple items | ✓ |
 | Cart — Remove Item/Test Cart Count | ✓ |
 | Cart — Test Correct Item | ✓ |
+| Checkout — Successful checkout | ✓ |
+| Checkout — Error on missing field | ✓ |
 
 More scenarios being added weekly.
 
