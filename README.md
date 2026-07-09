@@ -11,7 +11,7 @@ End-to-end UI test suite for [SauceDemo](https://www.saucedemo.com/) built with 
 - **Python 3.14.4**
 - **Pytest** — test framework
 - **Playwright** — browser automation
-- **GitHub Actions** — CI/CD *(not yet implemented)*
+- **GitHub Actions** — CI/CD 
 
 ---
 
