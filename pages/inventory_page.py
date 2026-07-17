@@ -35,3 +35,7 @@ class InventoryPage:
             text = float(text)
             result.append(text)
         return result
+    
+    def sort_by(self, value):
+        self.sort_select.select_option(value)
+
