@@ -90,6 +90,10 @@ pytest --headed --slowmo=500
 | Inventory — Get item names | ✓ |
 | Inventory — Get item prices | ✓ |
 | Inventory — Add items | ✓ |
+| Inventory — Sort Price (low-high) | ✓ |
+| Inventory — Sort Price (high-low) | ✓ |
+| Inventory — Sort Name (a to z) | ✓ |
+| Inventory — Sort Name (z to a) | ✓ |
 | Cart — Add Item/Test Cart Count | ✓ |
 | Cart — Add multiple items | ✓ |
 | Cart — Remove Item/Test Cart Count | ✓ |
