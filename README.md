@@ -1,4 +1,4 @@
-> **Please note this is an in-progress repository that I am creating to learn automation.**
+
 
 # Python Playwright Portfolio
 
