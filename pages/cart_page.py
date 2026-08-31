@@ -8,7 +8,7 @@ class CartPage:
         self.checkout = page.locator('[data-test="checkout"]')
         self.continue_shopping_button = page.locator('[data-test="continue-shopping"]')
 
-    def goto(self):
+    def goto_cart(self):
         self.page.goto("https://www.saucedemo.com/cart.html")
 
     def remove_item(self, name: str):
